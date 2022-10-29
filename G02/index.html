@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/G02.loader.js";
       var config = {
-        dataUrl: buildUrl + "/G02.data.unityweb",
-        frameworkUrl: buildUrl + "/G02.framework.js.unityweb",
-        codeUrl: buildUrl + "/G02.wasm.unityweb",
+        dataUrl: buildUrl + "/G02.data",
+        frameworkUrl: buildUrl + "/G02.framework.js",
+        codeUrl: buildUrl + "/G02.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MSKU",
         productName: "BAP_G01",
@@ -97,7 +97,7 @@
         canvas.style.height = "1080px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/G02.jpg.unityweb') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/G02.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
