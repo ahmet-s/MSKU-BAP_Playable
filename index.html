@@ -117,13 +117,13 @@
 			var buildUrl = element + "/Build";
 			var loaderUrl = buildUrl + "/" + element + ".loader.js";
 			var config = {
-				dataUrl: buildUrl + "/" + element + ".data",
-				frameworkUrl: buildUrl + "/" + element + ".framework.js",
-				codeUrl: buildUrl + "/" + element + ".wasm",
+				dataUrl: buildUrl + "/" + element + ".data.unityweb",
+				frameworkUrl: buildUrl + "/" + element + ".framework.js.unityweb",
+				codeUrl: buildUrl + "/" + element + ".wasm.unityweb",
 				streamingAssetsUrl: "StreamingAssets",
-				companyName: "DefaultCompany",
+				companyName: "MSKU",
 				productName: element,
-				productVersion: "0.1",
+				productVersion: "1.0",
 			};
 
 			var loaderParent = document.querySelector("#game" + index);
